@@ -1,7 +1,7 @@
 const { executionAsyncResource } = require('async_hooks');
 const Discord = require('discord.js');
 const ytdl = require('ytdl-core');
-const config = require('./Data/config.json'); 
+const config = require('./data/config.json'); 
 
 const { YTSearcher } = require('ytsearcher');
  
@@ -146,4 +146,4 @@ client.on("message", async(message) => {
     }
 })
  
-client.login("")
+client.login("ODczOTMwNTk3MTg0MTgwMjM0.YQ_lSw.8wlyUrZTsvynvVy6zEN_BW1DDMc")

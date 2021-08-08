@@ -27,9 +27,10 @@ client.on('messageCreate', message => {
   switch (args[0]) {
     case "뭐해":
       message.reply("공부중인데요?");
-
       break;
-    
+    case "심심해":
+      message.reply("심심하세요? 왜 심심한지 아세요?\n하는게 없으니까 그런거에요!\n전 공부하느라 너무 바빠서 심심할 틈도 없답니다.");
+      break;    
   }
 });
 /*
